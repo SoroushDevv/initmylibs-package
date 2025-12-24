@@ -56,13 +56,12 @@ init-my-libs
 
 ## بازخورد و مشارکت
 
-اگر پیشنهاد نظر یا مشکل داشتید لطفاً با ما در میان بگذارید
+اگر پیشنهاد نظر یا مشکل داشتید لطفاً با من در میان بگذارید
 
 - GitHub: https://github.com/SoroushDevv
 - LinkedIn: https://www.linkedin.com/in/soroushmoradidev/
 
-مشارکت و Pull Request‌ها خوش‌آمد هستند
-
+مشارکت و pull request شما مایه دلگرمیست.
 ## مجوز
 
 MIT
