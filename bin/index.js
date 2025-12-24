@@ -75,7 +75,7 @@ const LIBRARIES = [
 
   if (toInstall.length === 0) {
     console.log(chalk.yellow("\nNo libraries selected for installation or update. Exiting."));
-      console.log("\nIf you have any feedback, suggestions, or issues, please share them with us:");
+      console.log("\nIf you have any feedback, suggestions, or issues, please share them with me:");
   console.log(chalk.blue("GitHub: https://github.com/SoroushDevv"));
   console.log(chalk.cyan("LinkedIn: https://www.linkedin.com/in/soroushmoradidev/"));
   console.log("\nThank you for using this CLI!");
@@ -86,7 +86,7 @@ const LIBRARIES = [
   await installLibraries(toInstall);
 
   console.log(chalk.green("\nAll selected libraries processed successfully!"));
-  console.log("\nIf you have any feedback, suggestions, or issues, please share them with us:");
+  console.log("\nIf you have any feedback, suggestions, or issues, please share them with me:");
   console.log(chalk.blue("GitHub: https://github.com/SoroushDevv"));
   console.log(chalk.cyan("LinkedIn: https://www.linkedin.com/in/soroushmoradidev/"));
   console.log("\nThank you for using this CLI!");
