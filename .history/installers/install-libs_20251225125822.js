@@ -8,19 +8,7 @@ import path from "path";
 
 export async function installLibraries(libs) {
   const packageJsonPath = path.resolve(process.cwd(), "package.json");
-  async function detectPackageManager() {
-  const cwd = process.cwd();
-
-  if (fs.existsSync(path.join(cwd, "pnpm-lock.yaml"))) {
-    return "pnpm";
-  }
-
-  if (fs.existsSync(path.join(cwd, "yarn.lock"))) {
-    return "yarn";
-  }
-
-  return "npm";
-}
+  
   if (!fs.existsSync(packageJsonPath)) {
     console.log(chalk.red("\nError: package.json not found. Please run this CLI in the root of your project."));
     return;

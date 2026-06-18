@@ -19,8 +19,6 @@ const LIBRARIES = [
   { label: "Tippy.js", pkg: "@tippyjs/react", description: "Tooltip, popover, dropdown library" },
   { label: "FilePond (File Upload)", pkg: "filepond react-filepond", description: "File upload component" },
   { label: "React ApexCharts", pkg: "react-apexcharts apexcharts", description: "Charts for React" },
-  { label: "Tabler Icons React", pkg: "tabler-icons-react", description: "Open source icons for React" },
-  { label: "React Beautiful DnD", pkg: "react-beautiful-dnd", description: "Drag & drop library" },
   { label: "CountUp.js", pkg: "react-countup", description: "Animated counters" },
 ];
 
